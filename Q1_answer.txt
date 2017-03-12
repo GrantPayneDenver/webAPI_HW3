@@ -1,0 +1,5 @@
+Why sometimes OAuth should be revoked despite valid credentials: Even if valid credentials were
+sent in by the user, there are times when it can be deemed risky to grant OAuth to that user, 
+regardless. One of these instances may be when the IP address of the user is blacklisted, or comes
+from a blacklisted county. Or some other indication about the user's information alerts the 
+system to potential threat.
